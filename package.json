@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-native-community/netinfo": "^5.7.0",
     "@terrylinla/react-native-sketch-canvas": "^0.8.0",
+    "native-base": "^2.13.12",
     "pusher-js": "^5.1.1",
     "react": "16.11.0",
     "react-native": "0.62.0",

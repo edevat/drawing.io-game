@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import { Dimensions } from 'react-native';
 import { Router, Stack, Scene } from 'react-native-router-flux';
 import Drawing from './components/drawing';
-import Estimated from './components/estimated';
+import Home from './components/home';
 
 const { width, height } = Dimensions.get('window');
 class Root extends Component {
@@ -24,8 +24,9 @@ class Root extends Component {
           hideNavBar
           headerLayoutPreset='center'
         >
-          <Scene key="drawing" component={Drawing} title="Drawing" initial />
-          <Scene key="estimated" component={Estimated} title="Estimated"/>
+          <Scene key="home" component={Home} title="Home" initial/>
+          <Scene key="drawing" component={Drawing} title="Drawing" />
+          
           {/*<Scene
             key="rootTabBar"
             tabs={true}
